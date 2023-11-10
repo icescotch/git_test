@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baizhi.mapper.LogMapper">
+
+    <resultMap id="BaseResultMap" type="com.baizhi.entity.Log">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="adminName" column="admin_name" jdbcType="VARCHAR"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="methodName" column="method_name" jdbcType="VARCHAR"/>
+            <result property="optionStatus" column="option_status" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,admin_name,create_time,
+        method_name,option_status
+    </sql>
+</mapper>

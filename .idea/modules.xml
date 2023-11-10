@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../../../学/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/../../../../../学/springcloud/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yingx.iml" filepath="$PROJECT_DIR$/yingx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yingx (1).iml" filepath="$PROJECT_DIR$/yingx (1).iml" />
+    </modules>
+  </component>
+</project>
